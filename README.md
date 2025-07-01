@@ -15,6 +15,7 @@ Use `WASD` or the arrow keys to control the snake. Eat apples, grow longer, and 
 - Terminal-based visual rendering
 - Game-over detection on self-collision
 - Configurable map size and frame rate
+- Optional danger zones (in `dangers.py`) that end the game on contact
 
 ---
 
@@ -32,6 +33,12 @@ pip install -r requirements.txt
 
 ```bash
 python main.py
+```
+
+To run the version with dangers:
+
+```bash
+python dangers.py
 ```
 
 Make sure to run the script **in a terminal**, not an IDE — for best input behavior.
@@ -55,6 +62,7 @@ Make sure to run the script **in a terminal**, not an IDE — for best input beh
 ```
 terminal-snake/
 ├── main.py              # main game logic
+├── dangers.py           # version with danger zones
 ├── requirements.txt     # required dependencies
 └── README.md            # project description and instructions
 ```
