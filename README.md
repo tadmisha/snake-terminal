@@ -61,7 +61,6 @@ Make sure to run the script **in a terminal**, not an IDE — for best input beh
 
 ```
 terminal-snake/
-├── ascii_videos/        # (empty) folder used in future plans
 ├── main.py              # main game logic
 ├── requirements.txt     # required dependencies
 └── README.md            # project description and instructions
