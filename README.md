@@ -26,13 +26,6 @@ Install dependencies using:
 pip install -r requirements.txt
 ```
 
-Contents of `requirements.txt`:
-```
-pynput
-numpy
-opencv-python
-```
-
 ---
 
 ## ▶️ How to Run
